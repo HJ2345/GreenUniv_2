@@ -26,7 +26,7 @@ public class UserController {
     // 로그인 페이지
     @GetMapping("/login")
     public String login() {
-        return "/user/login";
+        return "user/login";
     }
 
     // 회원가입 페이지
@@ -49,7 +49,7 @@ public class UserController {
     // 약관 페이지
     @GetMapping("/terms")
     public String terms() {
-        return "user/terms";
+        return "/user/terms";
     }
 
     // 이메일 중복 체크

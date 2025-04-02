@@ -125,7 +125,7 @@ public class AdminController {
         model.addAttribute("deptList", deptRepository.findAll());
         model.addAttribute("profList", professorRepository.findAll());
         model.addAttribute("studentDTO", new StudentDTO());
-        return "admin/stdEnrollment";
+        return "/admin/stdEnrollment";
     }
 
     @PostMapping("/admin/stdEnrollment")

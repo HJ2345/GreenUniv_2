@@ -19,6 +19,7 @@
     <link rel="stylesheet" th:href="@{/style/common/_footer.css}"/>
     <link rel="stylesheet" th:href="@{/style/user/login.css}">
 
+    <link rel="website icon" type="png" th:href="@{/images/favicon.png}">
     <title>로그인 - 그린대학교</title>
     <!--
       이름 : 한결
@@ -80,7 +81,7 @@
                             </div>
                         </div>
                         <div class="login-container">
-                            <input type="text" name="id" placeholder="아이디">
+                            <input type="text" name="uid" placeholder="아이디"><!-- name = id(x) uid로 지정 필수-->
                             <input type="password" name="pass" placeholder="비밀번호">
                             <button type="submit">로그인</button>
                         </div>
